@@ -1,13 +1,14 @@
-package com.bezkoder.spring.datajpa;
+package com.lw.spring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 @SpringBootTest
 class SpringBootDataJpaApplicationTests {
-
 	@Test
-	void contextLoads() {
+	public void contextLoads() {
 	}
 
 }

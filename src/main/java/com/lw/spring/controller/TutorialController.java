@@ -1,9 +1,11 @@
-package com.bezkoder.spring.datajpa.controller;
+package com.lw.spring.controller;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+import com.lw.spring.model.Tutorial;
+import com.lw.spring.repository.TutorialRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,9 +19,6 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.bezkoder.spring.datajpa.model.Tutorial;
-import com.bezkoder.spring.datajpa.repository.TutorialRepository;
 
 @CrossOrigin(origins = "http://localhost:8081")
 @RestController
